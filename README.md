@@ -6,6 +6,7 @@ A complete guide for setting up Windows 11 ARM virtual machines on Apple Silicon
 - [Overview](#overview)
 - [What's in This Repository](#whats-in-this-repository)
 - [Quick Start](#quick-start)
+- [Running the VM](#running-the-vm)
 - [Prerequisites](#prerequisites)
 - [Detailed Setup Instructions](#detailed-setup-instructions)
 - [Steps Completed to Date](#steps-completed-to-date)
@@ -38,6 +39,29 @@ This repository documents setting up a Windows 11 ARM virtual machine on a Mac w
 5. Boot and follow Windows installation prompts
 
 **Starting from scratch?** See [Detailed Setup Instructions](#detailed-setup-instructions) below.
+
+## Running the VM
+
+Once you've completed the initial setup, running your Windows VM is simple:
+
+1. **Open UTM**: Launch the UTM application from your Applications folder or via Spotlight
+2. **Select Your VM**: Click on your Windows 11 VM from the list of virtual machines
+3. **Start the VM**: Click the play button (▶️) in the toolbar, or right-click and select "Run"
+4. **Wait for Boot**: The VM will boot up - this may take 30-60 seconds on first boot after setup
+5. **Interact**: Click inside the VM window to use Windows. Press `Control+Option` to release the mouse/keyboard
+
+### Useful Commands
+
+- **Full Screen**: Click the full-screen button or `Control+Command+F`
+- **Shutdown**: Use Windows Start menu → Power → Shut down (recommended)
+- **Force Stop**: UTM toolbar → Stop button (use only if VM is unresponsive)
+- **Pause/Resume**: UTM toolbar → Pause button to suspend the VM
+
+### Tips
+
+- The VM state is saved between runs - you can shut down Windows normally and restart later
+- For best performance, close other resource-intensive apps while running the VM
+- If the VM doesn't start, check UTM's console output for error messages
 
 ## Prerequisites
 - macOS Ventura (13) or later (tested on Sequoia 15.6.1).
